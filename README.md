@@ -1,6 +1,6 @@
 # WBGT Visualization for the Imperial Valley
 
-A dynamic geospatial visualization of Wet Bulb Globe Temperature (WBGT) patterns in California’s Imperial Valley, developed as part of my work with the [Climate Informatics Lab](https://scil.sdsu.edu/) at San Diego State University. This project is my contribution to the [Rural Heat Islands (RHI) Data and Alarm System](https://4dvdrhi.sdsu.edu/), and it will be integrated in a future update.
+A dynamic geospatial visualization of Wet Bulb Globe Temperature (WBGT) patterns in California’s Imperial Valley, developed as part of my work with the [Climate Informatics Laboratory (SCIL)](https://scil.sdsu.edu/) at San Diego State University. This project is my contribution to the [Rural Heat Islands (RHI) Data and Alarm System](https://4dvdrhi.sdsu.edu/), and it will be integrated in a future update.
 
 ---
 
@@ -50,4 +50,4 @@ This application visualizes WBGT data on an interactive map using Deck.gl and Ma
 ## Acknowledgments
 
 - Professor Fernando De Sales, SDSU Department of Geography  
-- Climate Informatics Lab, San Diego State University
+- Climate Informatics Laboratory (SCIL), San Diego State University
