@@ -24,6 +24,8 @@ This application visualizes WBGT data on an interactive map using Deck.gl and Ma
 - **Data Processing:** NetCDF4, Matplotlib
 - **Data Source:** WBGT datasets provided by [Professor Fernando De Sales, SDSU Geography](https://geography.sdsu.edu/people/bios/desales)
 
+In addition, work and documentation for this project were created using assistance from AI tools (ChatGPT). This assistance was mainly for the purpose of troubleshooting and ensuring adherence to best practices.
+
 ---
 ## Demo
 
