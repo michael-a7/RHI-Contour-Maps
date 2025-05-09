@@ -28,7 +28,7 @@ This application visualizes WBGT data on an interactive map using Deck.gl and Ma
 ---
 ## Demo
 
-![WBGT contour visualization for 12pm PST on November 2, 2024](https://github.com/michael-a7/RHI-Contour-Maps/blob/master/RHI-Demo.png?raw=true)
+![WBGT contour visualization for 12pm PST on November 2, 2024](https://github.com/michael-a7/RHI-Contour-Maps/blob/master/Layer-Image-Demo.png?raw=true)
 
 **WBGT contour visualization for 12pm PST on November 2, 2024**
 
