@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WBGT Visualization for the Imperial Valley
 
-## Getting Started
+A dynamic geospatial visualization of Wet Bulb Globe Temperature (WBGT) patterns in California’s Imperial Valley, developed as part of my work with the [Climate Informatics Lab](https://scil.sdsu.edu/) at San Diego State University. This project is my contribution to the [Rural Heat Islands (RHI) Data and Alarm System](https://4dvdrhi.sdsu.edu/news/blog/rhi-data-alarm-system-v100-beta-release).
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This application visualizes WBGT data on an interactive map using Deck.gl and Mapbox. The current version renders daily noon-time temperature contours over the Imperial Valley region for a consecutive range of dates in November 2024. It uses data from NetCDF files provided by [Professor Fernando De Sales](https://geography.sdsu.edu/people/bios/desales) of SDSU's Geography Department.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- Interactive map displaying WBGT contours
+- Date selection using a simple frontend UI
+- Dynamic rendering of NetCDF-derived data layers
+- Integration with the Climate Informatics Lab’s research initiatives
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Frontend:** React.js, Deck.gl, Mapbox
+- **Backend:** Python, FastAPI
+- **Data Processing:** NetCDF4, Matplotlib
+- **Data Source:** WBGT datasets provided by Professor Fernando De Sales, SDSU Geography
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## How It Works
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Data Extraction:** Python scripts process NetCDF files to extract WBGT values at noon for selected dates.
+2. **Visualization:** Contour plots are generated using Matplotlib.
+3. **API Upload:** The processed images are served via a FastAPI backend.
+4. **Map Integration:** The React frontend overlays the contours as a Deck.gl layer on a Mapbox map.
+
+---
+
+## Future Work
+
+- Integrate additional datasets across broader date ranges
+- Add interactive UI components
+- Deploy live version with public access
+---
+
+## Acknowledgments
+
+- Professor Fernando De Sales, SDSU Department of Geography  
+- Climate Informatics Lab, San Diego State University
