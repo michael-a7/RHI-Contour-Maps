@@ -6,7 +6,7 @@ A dynamic geospatial visualization of Wet Bulb Globe Temperature (WBGT) patterns
 
 ## Overview
 
-This application visualizes WBGT data on an interactive map using Deck.gl and Mapbox. The current version renders daily noon-time temperature contours over the Imperial Valley region for a consecutive range of dates in November 2024. It uses data from NetCDF files provided by [Professor Fernando De Sales](https://geography.sdsu.edu/people/bios/desales) of SDSU's Geography Department.
+This application visualizes WBGT data on an interactive map using Deck.gl and Mapbox. The current version renders daily noon-time temperature contours over the Imperial Valley region for a consecutive range of dates in November 2024.
 
 ---
 
