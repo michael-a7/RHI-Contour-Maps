@@ -24,7 +24,7 @@ This application visualizes WBGT data on an interactive map using Deck.gl and Ma
 - **Frontend:** React.js, Deck.gl, Mapbox
 - **Backend:** Python, FastAPI
 - **Data Processing:** NetCDF4, Matplotlib
-- **Data Source:** WBGT datasets provided by Professor Fernando De Sales, SDSU Geography
+- **Data Source:** WBGT datasets provided by [Professor Fernando De Sales, SDSU Geography](https://geography.sdsu.edu/people/bios/desales)
 
 ---
 
